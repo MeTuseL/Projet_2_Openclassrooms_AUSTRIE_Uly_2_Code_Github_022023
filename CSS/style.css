@@ -1,0 +1,107 @@
+/** Page **/
+body{
+   position: relative;
+   width: 1440px;
+   height: 1884px;
+   background: #FFFFFF;
+
+}
+/** En-tête **/
+/** color **/
+.blue {
+   color: #0065FC;
+
+}
+/** Logo Booki **/
+#logoBooki{
+   position: absolute;
+   height: 29px;
+   width: 61px;
+   left: 55px;
+   top: 44px;
+   border-radius: 0px;
+
+} 
+
+/** Titre **/
+.policeTitre{
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 26px;
+   color: #000000;
+
+}
+
+.policeSous-titre {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+
+}
+
+.titre1{
+   position: absolute;
+   width: 575px;
+   height: 26px;
+   left: 55px;
+   top: 126px;
+}
+
+.sous-titre1{
+   position: absolute;
+   width: 296px;
+   height: 19px;
+   left: 55px;
+   top: 180px;
+}
+
+/** Navigation **/
+
+nav {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+}
+.navHeader1{
+   position: absolute;
+   left: 80%;
+   right: 30%;
+   top: 0%;
+   bottom: 0%;
+   color: #0065FC;
+   text-align: center;
+
+}
+#navHeader2{
+   position: absolute;
+   left: 90%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   text-align: center;
+
+}
+/** Barre de recherche**/
+/**Bouton Recherche**/
+.boutonRecherche {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 15px 16px;
+   gap: 10px;
+   position: absolute;
+   width: 132px;
+   height: 49px;
+   left: 341px;
+   top: 199px;
+   border: 1px solid #0065FC;
+   border-radius: 0px 15px 15px 0px;
+
+}
