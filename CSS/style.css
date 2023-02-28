@@ -1,97 +1,135 @@
-/** Page **/
-body{
-   position: relative;
-   width: 1440px;
-   height: 1884px;
-   background: #FFFFFF;
-
-}
-/** En-tête **/
-/** color **/
+/** couleur **/
 .blue {
    color: #0065FC;
 
 }
+/* Conteneur */
+.containerNav{
+   display: flex;
+   position: relative;
+   width: 170px;
+   flex-direction: row;
+   justify-content: space-between; 
+}
+.containerRecherche{
+   display: flex;
+   position: relative;
+   flex-wrap: nowrap;
+   flex-direction: row;
+
+}
+.containerFiltre{
+   display: flex;
+   position: relative;
+   width: 700px;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+h1, h2, h3, h4 {
+
+   font-family: 'Raleway';
+   font-style: normal;
+}
+#buttonRecherche{
+   background: #0065FC;
+   border: 1px solid #0065FC;
+   border-radius: 10px 30px 30px 10px;
+   font-weight: 700;
+   color: #FFFFFF;
+   font-size: 20px;
+
+}
+/** Page **/
+body{
+   margin: 50px;
+}
 /** Logo Booki **/
 #logoBooki{
-   position: absolute;
-   height: 29px;
-   width: 61px;
-   left: 55px;
-   top: 44px;
-   border-radius: 0px;
-
+   width: 80px;
 } 
+p {
+
+}
+br{
+
+}
+nav, .containerNav{
+   margin-left: auto;
+   bottom: 50px;
+}
+
 
 /** Titre **/
 .policeTitre{
-   font-family: 'Raleway';
+   /* font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
    font-size: 22px;
    line-height: 26px;
-   color: #000000;
+   color: #000000; */
 
 }
 
 .policeSous-titre {
-   font-family: 'Raleway';
+   /* font-family: 'Raleway';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 19px;
-   color: #000000;
+   color: #000000; */
 
 }
 
 .titre1{
-   position: absolute;
-   width: 575px;
-   height: 26px;
+   /* position: absolute;
+   /* width: 575px; */
+   /* height: 26px; 
    left: 55px;
-   top: 126px;
+   top: 126px; */
 }
 
 .sous-titre1{
-   position: absolute;
-   width: 296px;
+   /* position: absolute; */
+   /* width: 296px;
    height: 19px;
    left: 55px;
-   top: 180px;
+   top: 180px; */
 }
 
 /** Navigation **/
 
 nav {
-   font-family: 'Raleway';
+   /* font-family: 'Raleway';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 19px; */
 }
 .navHeader1{
-   position: absolute;
+   /* position: absolute;
    left: 80%;
    right: 30%;
    top: 0%;
    bottom: 0%;
    color: #0065FC;
-   text-align: center;
+   text-align: center; */
 
 }
 #navHeader2{
-   position: absolute;
+   /* position: absolute;
    left: 90%;
    right: 0%;
    top: 0%;
    bottom: 0%;
-   text-align: center;
+   text-align: center; */
 
 }
 /** Barre de recherche**/
 /**Bouton Recherche**/
 .boutonRecherche {
-   display: flex;
+   /* display: flex;
    flex-direction: row;
    align-items: center;
    padding: 15px 16px;
@@ -102,6 +140,6 @@ nav {
    left: 341px;
    top: 199px;
    border: 1px solid #0065FC;
-   border-radius: 0px 15px 15px 0px;
+   border-radius: 0px 15px 15px 0px; */
 
 }

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
      <head>
-
-         <meta charset="utf-8">
+        
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Site Booki</title>
          <link href="CSS/style.css" rel="stylesheet">
 
@@ -10,7 +12,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
          <!-- Kit icons frontawesome  -->
-         <script src="https://kit.fontawesome.com/f4ea6028b2.js" crossorigin="anonymous"></script>
+         <script src="https://kit.fontawesome.com/f4ea6028b2.js" crossorigin="anonymous" defer></script>
      </head>
 
     <body>
@@ -19,27 +21,35 @@
              <!-- En-tête -->
 
              <img id="logoBooki" src="images\logo\Booki.png" alt="Logo du site">
-             <h1 class="policeTitre titre1">Trouvez votre hébergement pour des vacances de rêve</h1>
-             <h2 class="policeSous-titre sous-titre1">En plein centre-ville ou en pleine nature </h2>
+             <p>Trouvez votre hébergement pour des vacances de rêve<br>En plein centre-ville ou en pleine nature</p>
              <nav>
                  <ul>
-                     <a class="navHeader1 blue" href="#">Hébergements</a>
-                     <a id="navHeader2" href="#">Activités</a>
+                     <div class="containerNav">
+                        <a class="blue" href="#">Hébergements</a>
+                        <a href="#">Activités</a>
+                     </div>
                  </ul>
              </nav>
              <!-- Barre de recherche -->
-
-             <!-- <div class="recherche">
-                <form action="#">
+            <div class="containerRecherche">
+                <!-- incon localisation -->
+                <i class="fa-solid fa-location-dot"></i>
+                <form>
                     <input type="text"
-                        placeholder=" Lieu"
-                        name="recherche">
-                    <button>
-                        <i class="boutonRecherche">Rechercher</i>
-                    </button>
-                </form>
-            </div> -->
-
+                         placeholder=" Lieu"
+                         name="recherche">
+                    <button id="buttonRecherche">Rechercher</button>
+                </form>   
+             </div>
+             <!-- Filtre -->
+             <div class="containerFiltre">
+                 <h3>Filtres</h3>
+                 <button><i class="fa-solid fa-money-bill-1-wave"></i> Economique</button>
+                 <button><i class="fa-solid fa-person"></i> Familial</button>
+                 <button><i class="fa-solid fa-heart"></i> Romantique</button>
+                 <button><i class="fa-solid fa-dog"></i> Annimaux autorisés</button>
+             </div>
+             <h4><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</h4>
          </header>
      </body>
 </html>
