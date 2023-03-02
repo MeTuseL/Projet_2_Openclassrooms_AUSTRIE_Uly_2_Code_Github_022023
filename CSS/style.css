@@ -1,43 +1,71 @@
 /** color **/
-.blue {
-    color: #0065FC;
+.blueBooki {
+     color: #0065FC;
+}
+.black {
+     color: black;
 }
 
 /* font */
-h1, h2, h3, p {
-    font-family: 'Raleway';
-    font-style: normal;
+h1, h2, h3, p, button, nav {
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
 }
-
 /* body */
 body{
-    margin: 50px;
-}
 
+}
+/* flexbox */
+.spaceBetween{
+     justify-content: space-between;
+}
+.spaceAround {
+     justify-content: space-around;
+}
 /* header */
 .container_header {
-    display: flex;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
 }
+/* header left */
 .container_header_left {
-    display: flex;
+
 }
 #logo_Booki {
-    width: 80px;
+     width: 80px;
+}
+#title_header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.subtitle_header {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
 }
 .container_search_bar {
-    display: flex;
+
 }
 #button_search {
-    background: #0065FC;
-    border: 1px solid #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    font-weight: 700;
-    color: #FFFFFF;
-    font-size: 20px;
+     background: #0065FC;
+     border: 1px solid #0065FC;
+     border-radius: 0px 15px 15px 0px;
+     font-weight: 700;
+     color: #FFFFFF;
+     font-size: 20px;
 }
 .container_filter {
-    display: flex;
+    
 }
-.containeur_header_right {
-    display: flex;
+/* header right */
+.container_header_right {
+     width: 300px;
 }
+.navigation_bar {
+    
+}
+/* main */
+
+
