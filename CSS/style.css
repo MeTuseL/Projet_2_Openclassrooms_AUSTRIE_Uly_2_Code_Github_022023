@@ -1,145 +1,43 @@
-/** couleur **/
+/** color **/
 .blue {
-   color: #0065FC;
+    color: #0065FC;
+}
 
+/* font */
+h1, h2, h3, p {
+    font-family: 'Raleway';
+    font-style: normal;
 }
-/* Conteneur */
-.containerNav{
-   display: flex;
-   position: relative;
-   width: 170px;
-   flex-direction: row;
-   justify-content: space-between; 
-}
-.containerRecherche{
-   display: flex;
-   position: relative;
-   flex-wrap: nowrap;
-   flex-direction: row;
 
-}
-.containerFiltre{
-   display: flex;
-   position: relative;
-   width: 700px;
-   flex-wrap: nowrap;
-   flex-direction: row;
-   justify-content: space-around;
-
-}
-h1, h2, h3, h4 {
-
-   font-family: 'Raleway';
-   font-style: normal;
-}
-#buttonRecherche{
-   background: #0065FC;
-   border: 1px solid #0065FC;
-   border-radius: 10px 30px 30px 10px;
-   font-weight: 700;
-   color: #FFFFFF;
-   font-size: 20px;
-
-}
-/** Page **/
+/* body */
 body{
-   margin: 50px;
-}
-/** Logo Booki **/
-#logoBooki{
-   width: 80px;
-} 
-p {
-
-}
-br{
-
-}
-nav, .containerNav{
-   margin-left: auto;
-   bottom: 50px;
+    margin: 50px;
 }
 
-
-/** Titre **/
-.policeTitre{
-   /* font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 22px;
-   line-height: 26px;
-   color: #000000; */
-
+/* header */
+.container_header {
+    display: flex;
 }
-
-.policeSous-titre {
-   /* font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 19px;
-   color: #000000; */
-
+.container_header_left {
+    display: flex;
 }
-
-.titre1{
-   /* position: absolute;
-   /* width: 575px; */
-   /* height: 26px; 
-   left: 55px;
-   top: 126px; */
+#logo_Booki {
+    width: 80px;
 }
-
-.sous-titre1{
-   /* position: absolute; */
-   /* width: 296px;
-   height: 19px;
-   left: 55px;
-   top: 180px; */
+.container_search_bar {
+    display: flex;
 }
-
-/** Navigation **/
-
-nav {
-   /* font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 19px; */
+#button_search {
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
 }
-.navHeader1{
-   /* position: absolute;
-   left: 80%;
-   right: 30%;
-   top: 0%;
-   bottom: 0%;
-   color: #0065FC;
-   text-align: center; */
-
+.container_filter {
+    display: flex;
 }
-#navHeader2{
-   /* position: absolute;
-   left: 90%;
-   right: 0%;
-   top: 0%;
-   bottom: 0%;
-   text-align: center; */
-
-}
-/** Barre de recherche**/
-/**Bouton Recherche**/
-.boutonRecherche {
-   /* display: flex;
-   flex-direction: row;
-   align-items: center;
-   padding: 15px 16px;
-   gap: 10px;
-   position: absolute;
-   width: 132px;
-   height: 49px;
-   left: 341px;
-   top: 199px;
-   border: 1px solid #0065FC;
-   border-radius: 0px 15px 15px 0px; */
-
+.containeur_header_right {
+    display: flex;
 }

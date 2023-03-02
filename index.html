@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-     <head>
+    <head>
         
          <meta charset="UTF-8">
          <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,48 +8,70 @@
          <title>Site Booki</title>
          <link href="CSS/style.css" rel="stylesheet">
 
-         <!-- Import polices Raleway and Sulphur point -->
+         <!-- import polices Raleway and Sulphur point -->
          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
-         <!-- Kit icons frontawesome  -->
+         <!-- kit icons frontawesome  -->
          <script src="https://kit.fontawesome.com/f4ea6028b2.js" crossorigin="anonymous" defer></script>
-     </head>
+
+    </head>
 
     <body>
 
          <header>
-             <!-- En-tête -->
+             <div class="containeur_header">
 
-             <img id="logoBooki" src="images\logo\Booki.png" alt="Logo du site">
-             <p>Trouvez votre hébergement pour des vacances de rêve<br>En plein centre-ville ou en pleine nature</p>
-             <nav>
-                 <ul>
-                     <div class="containerNav">
-                        <a class="blue" href="#">Hébergements</a>
-                        <a href="#">Activités</a>
+                 <div class="containeur_header_left">
+
+                     <!-- logo and title -->
+
+                     <img id="logo_Booki" src="images\logo\Booki.png" alt="Logo du site">
+                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                     <p>En plein centre-ville ou en pleine nature</p>
+
+                     <!-- search bar -->
+
+                     <div class="container_search_bar">
+
+                         <i class="fa-solid fa-location-dot"></i>
+                         <form>
+                             <input type="text"
+                             placeholder="Lieu"
+                             name="recherche">
+                             <button id="button_search">Rechercher</button>
+                         </form>  
+
                      </div>
-                 </ul>
-             </nav>
-             <!-- Barre de recherche -->
-            <div class="containerRecherche">
-                <!-- incon localisation -->
-                <i class="fa-solid fa-location-dot"></i>
-                <form>
-                    <input type="text"
-                         placeholder=" Lieu"
-                         name="recherche">
-                    <button id="buttonRecherche">Rechercher</button>
-                </form>   
-             </div>
-             <!-- Filtre -->
-             <div class="containerFiltre">
-                 <h3>Filtres</h3>
-                 <button><i class="fa-solid fa-money-bill-1-wave"></i> Economique</button>
-                 <button><i class="fa-solid fa-person"></i> Familial</button>
-                 <button><i class="fa-solid fa-heart"></i> Romantique</button>
-                 <button><i class="fa-solid fa-dog"></i> Annimaux autorisés</button>
-             </div>
-             <h4><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</h4>
+
+                     <!-- Filtre -->
+
+                     <div class="container_filter">
+
+                         <h3>Filtres</h3>
+                         <button><i class="fa-solid fa-money-bill-1-wave"></i> Economique</button>
+                         <button><i class="fa-solid fa-person"></i> Familial</button>
+                         <button><i class="fa-solid fa-heart"></i> Romantique</button>
+                         <button><i class="fa-solid fa-dog"></i> Annimaux autorisés</button>
+
+                     </div>
+
+                     <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                     
+                 </div>
+
+                 <div class="containeur_header_right">
+
+                    <!-- navigation bar -->
+
+                     <nav>
+                         <ul>
+                             <a class="blue" href="#">Hébergements</a>
+                             <a href="#">Activités</a>
+                         </ul>
+                     </nav>
+
          </header>
+
      </body>
+
 </html>
