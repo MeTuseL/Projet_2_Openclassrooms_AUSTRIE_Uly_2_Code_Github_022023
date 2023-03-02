@@ -23,32 +23,32 @@ body{
      justify-content: space-around;
 }
 /* header */
-.container_header {
+.container-header {
      display: flex;
      flex-direction: row;
      flex-wrap: nowrap;
 }
 /* header left */
-.container_header_left {
+.container-header-left {
 
 }
-#logo_Booki {
+#logo-Booki {
      width: 80px;
 }
-#title_header {
+#title-header {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
 }
-.subtitle_header {
+.subtitle-header {
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
 }
-.container_search_bar {
+.container-search-bar {
 
 }
-#button_search {
+#button-search {
      background: #0065FC;
      border: 1px solid #0065FC;
      border-radius: 0px 15px 15px 0px;
@@ -56,14 +56,14 @@ body{
      color: #FFFFFF;
      font-size: 20px;
 }
-.container_filter {
+.container-filter {
     
 }
 /* header right */
-.container_header_right {
+.container-header-right {
      width: 300px;
 }
-.navigation_bar {
+.navigation-bar {
     
 }
 /* main */
