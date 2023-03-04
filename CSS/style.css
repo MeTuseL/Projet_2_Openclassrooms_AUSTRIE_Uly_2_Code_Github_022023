@@ -2,6 +2,7 @@
 .blueBooki {
     color: #0065FC;
 }
+
 /* link */
 a {
     text-decoration: none
@@ -12,17 +13,19 @@ h1,
 h2,
 h3,
 p,
+a,
 input,
 button,
 nav {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
+    color: black;
 }
 
 .title-header-main {
     font-weight: 700;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 /* body */
@@ -31,7 +34,7 @@ body {
     max-width: 1400px;
     margin: 40px;
     margin-top: 0px;
-  }
+}
 
 /* flexbox */
 .justify-spaceBetween {
@@ -72,40 +75,46 @@ body {
 .subtitle-header {
     font-weight: 400;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 30px;
 }
-.title-search-bar-filter{
+
+.title-search-bar-filter {
     font-weight: 700;
     font-size: 16px;
 }
+
 .container-search-bar {
     padding: 0px;
     height: 45px;
     width: 480px;
 }
-.icon-location-search-bar{
+
+.icon-location-search-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F2F2F2;
-border: none;
-border-radius: 15px 0px 0px 15px;
-width: 45px;
-height: 40px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    width: 45px;
+    height: 40px;
 }
 
-.form-search-bar{
+.form-search-bar {
     width: 330px;
 }
+
 .input-search-bar {
     float: left;
     border: none;
     padding: 0px;
     height: 45px;
 }
-.form-search-bar ::placeholder{
+
+.form-search-bar ::placeholder {
     padding-left: 15px;
 }
+
 .button-search-bar {
     background: #0065FC;
     border: none;
@@ -116,44 +125,54 @@ height: 40px;
     padding: 0px;
 
 }
+
 .container-filter {
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 900px;
 }
-.button-filter{
+
+.button-filter {
     background: #FFFFFF;
-border: 2px solid #D9D9D9;
-border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
 }
-.button-filter:hover{
+
+.button-filter:hover {
     background: #DEEBFF;
 }
-.icon-filter{
+
+.icon-filter {
     padding-right: 10px;
     font-size: 20px;
 }
-.inside-filter{
+
+.inside-filter {
     padding: 17px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 /* header right */
 .container-header-right {
     position: relative;
     width: 270px;
 }
-.navigation-bar{
+
+.navigation-bar {
     margin: 0px;
 }
+
 .border-navigation-bar {
-   padding-top: 40px;
+    padding-top: 40px;
 }
-  .border-navigation-bar:hover{
+
+.border-navigation-bar:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
+
 /* main */
 .container-main {
     position: relative;
@@ -166,8 +185,8 @@ border-radius: 25px;
 .container-section-1 {
     background: #F2F2F2;
     border-radius: 20px;
-    height: 700px;
-    width: 900px;
+    height: 580px;
+    width: 850px;
     padding: 30px;
 }
 
@@ -176,9 +195,9 @@ border-radius: 25px;
     background: #FFFFFF;
     border-radius: 20px;
     border: 5px solid #FFFFFF;
-    width: 270px;
-    height: 250px;
-    margin-bottom: 25px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
@@ -198,16 +217,18 @@ border-radius: 25px;
     padding-left: 10px;
 }
 
-.title-section-aside-article {
+.title-section-aside{
     font-weight: 700;
     font-size: 17px;
-    line-height: 20px;
+    line-height: 25px;
+    margin: 0px;
 }
 
 .subtitle-section-aside {
     font-weight: 400;
     font-size: 14px;
-    line-height: 10px;
+    line-height: 30px;
+    margin: 0px;
 }
 
 .size-icon-star {
@@ -217,7 +238,10 @@ border-radius: 25px;
 #link-section-1 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
+}
+#link-section-1:hover{
+    color: #0065FC;
 }
 
 /* aside */
@@ -225,7 +249,7 @@ border-radius: 25px;
     background: #F2F2F2;
     border-radius: 20px;
     width: 350px;
-    height: 700px;
+    height: 580px;
     padding: 30px;
 }
 
@@ -240,6 +264,7 @@ border-radius: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 350px;
 }
 
 
@@ -248,11 +273,11 @@ border-radius: 25px;
     background: #FFFFFF;
     border-radius: 20px;
     border: 5px solid #FFFFFF;
-    width: 350px;
-    height: 150px;
+    width: 340px;
+    height: 140px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .card-accommodation-aside:hover {
@@ -271,9 +296,7 @@ border-radius: 25px;
 .inside-card-aside {
     margin-left: 45%;
     height: 100%;
-    margin-right: 15px;
 }
-
 .bottom-icon-star {
     position: absolute;
     bottom: 0;
@@ -314,4 +337,32 @@ border-radius: 25px;
 
 .inside-card-article {
     padding-left: 15px;
+    padding-top: 15px;
+}
+/* footer */
+.container-footer{
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 30px;
+    margin-top: 50px;
+    padding-right: 300px;
+}
+.list-footer{
+    list-style: none;
+    padding: 0px;
+}
+.title-article{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+.subtitle-article{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+}
+.subtitle-article:hover{
+    color: #0065FC;
 }
