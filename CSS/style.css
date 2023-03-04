@@ -32,10 +32,9 @@ nav {
 body {
     position: relative;
     max-width: 1400px;
-    margin: 40px;
-    margin-top: 0px;
-}
+    margin: auto;
 
+}
 /* flexbox */
 .justify-spaceBetween {
     justify-content: space-between;
@@ -52,7 +51,11 @@ body {
 .align-spaceAround {
     align-content: space-around;
 }
-
+/* list navigation */
+.list-nav {
+    list-style: none;
+    padding: 0px;
+}
 /* header */
 .container-header {
     position: relative;
@@ -153,6 +156,15 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+.border-icon-info{
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
 
 /* header right */
 .container-header-right {
@@ -169,10 +181,12 @@ body {
 }
 
 .border-navigation-bar:hover {
-    color: #0065FC;
     border-top: 3px solid #0065FC;
 }
+.color-navigation-bar:hover{
+    color: #0065FC;
 
+}
 /* main */
 .container-main {
     position: relative;
@@ -217,7 +231,7 @@ body {
     padding-left: 10px;
 }
 
-.title-section-aside{
+.title-section-aside {
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
@@ -240,7 +254,8 @@ body {
     font-size: 18px;
     line-height: 30px;
 }
-#link-section-1:hover{
+
+#link-section-1:hover {
     color: #0065FC;
 }
 
@@ -297,6 +312,7 @@ body {
     margin-left: 45%;
     height: 100%;
 }
+
 .bottom-icon-star {
     position: absolute;
     bottom: 0;
@@ -339,8 +355,9 @@ body {
     padding-left: 15px;
     padding-top: 15px;
 }
+
 /* footer */
-.container-footer{
+.container-footer {
     background: #F2F2F2;
     display: flex;
     flex-direction: row;
@@ -349,20 +366,20 @@ body {
     margin-top: 50px;
     padding-right: 300px;
 }
-.list-footer{
-    list-style: none;
-    padding: 0px;
-}
-.title-article{
+
+
+.title-article {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
 }
-.subtitle-article{
+
+.subtitle-article {
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
 }
-.subtitle-article:hover{
+
+.subtitle-article:hover {
     color: #0065FC;
 }
