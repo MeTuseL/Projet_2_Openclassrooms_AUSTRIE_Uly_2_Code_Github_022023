@@ -37,22 +37,25 @@
                 <!-- search bar -->
                 <div class="container-header container-search-bar">
 
-                    <i class="fa-solid fa-location-dot"></i>
-                    <form method="get" action="">
-                        <input type="text" placeholder="Lieu" name="recherche">
-                        <button id="button-search">Rechercher</button>
-                    </form>
-
+                    <div class="icon-location-search-bar">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="form-search-bar">
+                        <form method="get" action="">
+                            <input class="input-search-bar title-search-bar-filter" type="text" placeholder="Lieu.." name="recherche">
+                            <button class="button-search-bar title-search-bar-filter">Rechercher</button>
+                        </form>
+                    </div>
                 </div>
 
-                <!-- Filtre -->
+                <!-- Filter -->
                 <div class="container-header container-filter justify-spaceBetween">
 
-                    <h3>Filtres</h3>
-                    <button><i class="fa-solid fa-money-bill-1-wave blueBooki"></i> Economique</button>
-                    <button><i class="fa-solid fa-person blueBooki"></i> Familial</button>
-                    <button><i class="fa-solid fa-heart blueBooki"></i> Romantique</button>
-                    <button><i class="fa-solid fa-dog blueBooki"></i> Annimaux autorisés</button>
+                    <h3 class="title-search-bar-filter">Filtres</h3>
+                    <button class="button-filter title-search-bar-filter inside-filter"><i class="fa-solid fa-money-bill-wave icon-filter blueBooki"></i> Economique</button>
+                    <button class="button-filter title-search-bar-filter inside-filter"><i class="fa-solid fa-person icon-filter blueBooki"></i> Familial</button>
+                    <button class="button-filter title-search-bar-filter inside-filter"><i class="fa-solid fa-heart icon-filter blueBooki"></i> Romantique</button>
+                    <button class="button-filter title-search-bar-filter inside-filter"><i class="fa-solid fa-dog icon-filter blueBooki"></i> Annimaux autorisés</button>
 
                 </div>
 
@@ -66,10 +69,11 @@
                 <!-- navigation bar -->
                 <nav>
 
-                    <ul class="container-header navigation-bar justify-spaceBetween">
-
-                        <a class="blueBooki" href="#">Hébergements</a>
-                        <a class="black" href="#">Activités</a>
+                    <ul class="navigation-bar">
+                        <div class="container-header justify-spaceBetween">
+                            <a class="border-navigation-bar subtitle-header" href="#">Hébergements</a>
+                            <a class="border-navigation-bar subtitle-header" href="#">Activités</a>
+                        </div>
                     </ul>
 
                 </nav>
@@ -294,7 +298,7 @@
 
                         <img class="image-accommodation-article"
                             src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-                        <h2 class="title-section-aside-article">Fort de Pomègues</h2>
+                        <h2 class="inside-card-article title-section-aside-article">Fort de Pomègues</h2>
 
                     </div>
 
@@ -302,7 +306,7 @@
 
                         <img class="image-accommodation-article"
                             src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-                        <h2 class="title-section-aside-article">Parc national des Calanques</h2>
+                        <h2 class="inside-card-article title-section-aside-article">Parc national des Calanques</h2>
 
                     </div>
 
@@ -310,7 +314,7 @@
 
                         <img class="image-accommodation-article"
                             src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg">
-                        <h2 class="title-section-aside-article">Notre-Dame-de-la-Garde</h2>
+                        <h2 class="inside-card-article title-section-aside-article">Notre-Dame-de-la-Garde</h2>
 
                     </div>
 

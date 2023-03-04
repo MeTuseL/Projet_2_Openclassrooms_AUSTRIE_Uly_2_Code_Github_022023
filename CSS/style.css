@@ -2,11 +2,6 @@
 .blueBooki {
     color: #0065FC;
 }
-
-.black {
-    color: black;
-}
-
 /* link */
 a {
     text-decoration: none
@@ -17,6 +12,7 @@ h1,
 h2,
 h3,
 p,
+input,
 button,
 nav {
     font-family: 'Raleway', sans-serif;
@@ -32,9 +28,10 @@ nav {
 /* body */
 body {
     position: relative;
+    max-width: 1400px;
     margin: 40px;
-    width: 1400px;
-}
+    margin-top: 0px;
+  }
 
 /* flexbox */
 .justify-spaceBetween {
@@ -59,14 +56,17 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 20px;
 }
 
 /* header left */
-.container-header-left {}
+.container-header-left {
+    padding: 20px;
+    padding-top: 40px;
+}
 
 #logo-Booki {
-    width: 80px;
+    width: 60px;
+    padding-bottom: 40px;
 }
 
 .subtitle-header {
@@ -74,33 +74,86 @@ body {
     font-size: 15px;
     line-height: 20px;
 }
-
+.title-search-bar-filter{
+    font-weight: 700;
+    font-size: 16px;
+}
 .container-search-bar {
     padding: 0px;
-    padding-top: 20px;
+    height: 45px;
+    width: 480px;
+}
+.icon-location-search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+border: none;
+border-radius: 15px 0px 0px 15px;
+width: 45px;
+height: 40px;
 }
 
-#button-search {
+.form-search-bar{
+    width: 330px;
+}
+.input-search-bar {
+    float: left;
+    border: none;
+    padding: 0px;
+    height: 45px;
+}
+.form-search-bar ::placeholder{
+    padding-left: 15px;
+}
+.button-search-bar {
     background: #0065FC;
-    border: 1px solid #0065FC;
+    border: none;
     border-radius: 0px 15px 15px 0px;
-    font-weight: 700;
     color: #FFFFFF;
-    font-size: 20px;
-}
+    height: 45px;
+    width: 110px;
+    padding: 0px;
 
+}
 .container-filter {
     padding: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 900px;
 }
-
+.button-filter{
+    background: #FFFFFF;
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+}
+.button-filter:hover{
+    background: #DEEBFF;
+}
+.icon-filter{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.inside-filter{
+    padding: 17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 /* header right */
 .container-header-right {
-    width: 300px;
+    position: relative;
+    width: 270px;
 }
-
-.navigation-bar {}
-
+.navigation-bar{
+    margin: 0px;
+}
+.border-navigation-bar {
+   padding-top: 40px;
+}
+  .border-navigation-bar:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
 /* main */
 .container-main {
     position: relative;
