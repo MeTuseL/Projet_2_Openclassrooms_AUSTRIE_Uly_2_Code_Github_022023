@@ -1,8 +1,5 @@
-/* all screen */
-@media screen {}
-
 /* mobile */
-@media screen and (max-width:768px) {
+@media all and (max-width:768px) {
 
     /** color **/
     .blueBooki {
@@ -504,7 +501,7 @@
 }
 
 /* tablet */
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media all and (min-width:769px) and (max-width:1024px) {
 
     /** color **/
     .blueBooki {
@@ -994,7 +991,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width:1025px) {
+@media all and (min-width:1025px) {
 
     /** color **/
     .blueBooki {
